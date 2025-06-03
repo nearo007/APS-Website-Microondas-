@@ -5,6 +5,10 @@
     box-sizing: border-box;
   }
   
+a img{
+  filter: invert();
+}
+
   body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff8f0; /* bege clarinho */
@@ -83,14 +87,8 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
     flex-wrap: wrap;
-
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 15;
+    margin-top: 223px;
   }
 
   /* Responsividade */
@@ -114,6 +112,7 @@
   
     footer {
       gap: 20px;
+      text-align: center;
     }
   
     footer iframe {
