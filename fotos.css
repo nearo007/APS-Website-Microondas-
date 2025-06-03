@@ -50,12 +50,17 @@ body{
 }
 
 #radio2:checked ~ .slides .first {
-    margin-left: -35%;
+    margin-left: -33%;
 }
 
 #radio3:checked ~ .slides .first {
-    margin-left: -100%;
+    margin-left: -98%;
 }
+
+#radio4:checked ~ .slides .first {
+    margin-left: -224.5%;
+}
+
 
 .foto.first {
     display: flex;
