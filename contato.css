@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+.link{
+  text-decoration: none;
+  color: #5a3e1b;
+  margin: 0 130px;
+}
+
+form{
+  margin-bottom: 30px;
+}
+
 a img{
   filter: invert();
 }
@@ -113,17 +123,6 @@ body {
     box-shadow: 0 0 0 3px rgba(246, 160, 59, 0.3);
   }
   
-  button[type="submit"] {
-    background-color: #f6a03b;
-    color: #fff9f2;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
   
   button[type="submit"] {
     background-color: #d35400;
@@ -133,6 +132,7 @@ body {
     border-radius: 8px;
     font-size: 1.1rem;
     font-weight: 700;
+    margin: 20px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
     margin: 0 auto; /* Centraliza o botão horizontalmente */
@@ -163,6 +163,15 @@ body {
     .site-header {
       flex-direction: column;
       padding: 20px;
+    }
+
+    .form-section{
+      text-align: center;
+    }
+
+    .link{
+      font-size: 15px;
+      margin: 0;
     }
   
     .site-nav ul {
