@@ -53,57 +53,27 @@
     box-shadow: 0 0 8px #d35400aa;
   }
   
-  /* About Section */
-  .about-section {
-    background: #fff9f0;
-    border-radius: 16px;
-    padding: 40px 35px;
+  .container-entrega {
     max-width: 900px;
     margin: 40px auto;
-    box-shadow: 0 8px 20px rgba(230, 126, 34, 0.12);
-    color: #6b4a1a;
+    background-color: #fff9f0;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(211, 84, 0, 0.1);
+    color: #5a3e1b;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    text-align: justify;
+  }
+
+  .container-entrega img {
+    display: block;
+    margin: 20px auto; /* margem automática na esquerda e direita para centralizar */
+    max-width: 100%; /* para garantir responsividade */
+    height: auto;
   }
   
-  .about-section h3 {
-    color: #d45d00;
-    margin-top: 1.6rem;
-    margin-bottom: 0.8rem;
-    font-weight: 700;
-    font-size: 1.3rem;
-    letter-spacing: 0.04em;
-  }
-  
-  .about-section p {
-    margin-bottom: 1.3rem;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
-  .about-section ul {
-    list-style: none;
-    margin-bottom: 1.5rem;
-    padding-left: 0;
-  }
-  
-  .about-section ul li {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 12px;
-    font-weight: 500;
-    font-size: 1rem;
-    color: #7a5720;
-  }
-  
-  .about-section ul li::before {
-    content: '✔️';
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 1.1rem;
-    color: #e67e22;
-  }
-  
+
   /* Footer */
   footer {
     display: flex;
