@@ -12,18 +12,22 @@
     color: #5a3e1b; /* marrom suave */
     line-height: 1.6;
     font-size: 16px;
-    padding: 20px;
+    padding-top: 140px;
   }
   
   /* Header */
   .site-header {
     background: linear-gradient(90deg, #f6a03b, #d35400); /* degradê laranja para laranja queimado */
     box-shadow: 0 4px 15px rgba(211, 84, 0, 0.2);
-    padding: 20px 40px;
-    border-radius: 12px;
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 15;
   }
   
   .site-header .logo img {
@@ -115,55 +119,7 @@
     margin-top: 50px;
     flex-wrap: wrap;
   }
-  
-  footer iframe {
-    border-radius: 16px;
-    box-shadow: 0 6px 18px rgba(211, 84, 0, 0.15);
-    border: none;
-    width: 320px;
-    height: 220px;
-    transition: transform 0.3s ease;
-  }
-  
-  footer iframe:hover,
-  footer iframe:focus {
-    transform: scale(1.03);
-    box-shadow: 0 10px 30px rgba(211, 84, 0, 0.3);
-  }
-  
-  /* Container para os mapas */
-  .maps-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: nowrap; /* para manter tudo em uma linha */
-  }
-  
-  .maps-container iframe {
-    border-radius: 16px;
-    box-shadow: 0 6px 18px rgba(211, 84, 0, 0.15);
-    border: none;
-    width: 300px;
-    height: 200px;
-    transition: transform 0.3s ease;
-  }
-  
-  .maps-container iframe:hover,
-  .maps-container iframe:focus {
-    transform: scale(1.03);
-    box-shadow: 0 10px 30px rgba(211, 84, 0, 0.3);
-  }
-  
-  .maps-container p.copyright-text {
-    max-width: 200px;
-    font-size: 1rem;
-    color: #5a3e1b;
-    text-align: center;
-    line-height: 1.4;
-    font-weight: 600;
-  }
-  
+
   /* Responsividade */
   @media (max-width: 768px) {
     .site-header {
